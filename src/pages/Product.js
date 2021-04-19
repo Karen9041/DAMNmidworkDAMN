@@ -2,7 +2,7 @@ import { Layout } from 'antd';
 import AppHeader from "../components/Header"
 import AppFooter from "../components/Footer"
 import ProductDetail from "../components/ProductDetail";
-import products from "../json/products.json";
+import products from "../json/SofaA.json";
 
 const { Header, Content, Footer } = Layout;
 

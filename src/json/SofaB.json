@@ -1,0 +1,46 @@
+[
+  {
+    "id": "B001520-100-A",
+    "category": "Sofa",
+    "name": "123人條紋布沙發",
+    "price": 15210,
+    "image": "https://www.tahan.com.tw/product/productimages/fe31f2181f3988e897ed8c235a1cd745.jpeg",
+    "description_long": "內含1人+1人+2人+大茶几 布製，橡膠木腳",
+    "currency": "NTD",
+    "countInStock": 7,
+    "color": ["米色"]    
+  },
+  {
+    "id": "B001520-98-A",
+    "category": "Sofa",
+    "name": "123人布沙發",
+    "price": 94180,
+    "image": "https://www.tahan.com.tw/product/productimages/2ba6ec89205e1a7aeaa736c6ce06c6b5.jpeg",
+    "description_long": "內含1人+2人+3人+大茶几+小茶几 1人:座寬60cm*座深69cm*座高40cm 2人:座寬120cm*座深69cm*座高40cm 3人:座寬180cm*座深69cm*座高40cm 禁止踩踏，禁止敲擊，嚴禁高溫",
+    "currency": "NTD",
+    "countInStock": 3 ,
+    "color": ["棕黑色"]    
+  },
+  {
+    "id": "B002520-294-101",
+    "category": "Sofa",
+    "name": "亞麻布單人沙發",
+    "price": 6250    ,
+    "image": "https://www.tahan.com.tw/product/productimages/10c00133f50338c8d40bb9a3763f7916.jpeg",
+    "description_long": "整組含單人座*1、雙人座*1、三人座*1 座高42cm，座深50cm 不含大小茶几，可自行加購",
+    "currency": "NTD",
+    "countInStock":33 ,
+    "color": ["淺咖啡色","墨綠色"]    
+  },
+  {
+    "id": "B001520-96-6",
+    "category": "Sofa",
+    "name": "L型布沙發",
+    "price": 32060,
+    "image": "https://www.tahan.com.tw/product/productimages/904ca6381fae05543159780073c1bcd1.jpeg",
+    "description_long": " 總尺寸:寬260cm*深185cm*高90cm  內尺寸:寬232cm*深66cm*坐高43cm  貴妃內部空間:寬148cm*深28cm*高68cm 機能設計，坐臥兩用",
+    "currency": "NTD",
+    "countInStock": 5 ,
+    "color": ["紅","米色","黑"]    
+  }
+]

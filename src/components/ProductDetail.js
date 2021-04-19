@@ -10,50 +10,27 @@ function ProductDetail({ product }) {
    const [color, setColor] = useState(product.countInStock > 0 ? product.color[0] : "none");
    return (
       <Row gutter={[32, 32]}>
-        <Col 
-          lg={{ span: 8, offset: 2 }}
-        >
+         <h2 className="subtitle subtitle-detail"><strong className="strong">|</strong> {product.name}</h2>
          <img
             alt=""
             className="product-image"
             src={product.image}
          />           
-        </Col>
-        <Col 
-          lg={{ span: 12 }}
-        >
+        
          <div className="product-info--detail">
-            <h2 className="product-category">
-               {product.category}
-            </h2>
-            <h1 className="product-name product-name--large">
-               {product.name}
-            </h1>
-            <p className="product-description">{product.description_long}</p>
+            <div className="product-description">
+               <p >{product.description_long}</p>
+            </div>
             <div className="product-price-wrap">
                <p className="product-price product-price--large">
-                  NT${product.price}.00
-               </p>
-               <p className="product-status">
-                  Status: {product.countInStock > 0 ? "In Stock" : "Unavailable."}
+               <h2 className="subtitle "><strong className="strong">|</strong> 價格: <strong className="strong"> NTD${product.price}.00</strong></h2>
                </p>
                <Row>
-                  <p className="product-qty">
-                     Qty: {"   "}
-                     <Select 
-                        defaultValue={qty} 
-                        className="select-style"
-                        onChange={val=>setQty(val)}
-                     >
-                        {[...Array(product.countInStock).keys()].map((x) => (
-                           <Option key={x + 1} value={x + 1}>
-                              {x + 1}
-                           </Option>
-                        ))}
-                     </Select>
-                  </p>
-                  <p className="product-color">
-                     Color: {"   "}
+               <p className="product-status">
+                  狀態: {product.countInStock > 0 ? "在庫" : "尚無存貨"}
+               </p>
+               <p className="product-color">
+                     顏色: {"   "}
                      <Select 
                         defaultValue={color} 
                         className="select-style"
@@ -69,16 +46,28 @@ function ProductDetail({ product }) {
                </Row>
                <Row>
                   <p className="product-qty">
-                     Total Price: {product.price * qty}
-                  </p> 
-                  <p className="product-color">
-                     Color: {color}
-                  </p>               
+                     數量: {"   "}
+                     <Select 
+                        defaultValue={qty} 
+                        className="select-style"
+                        onChange={val=>setQty(val)}
+                     >
+                        {[...Array(product.countInStock).keys()].map((x) => (
+                           <Option key={x + 1} value={x + 1}>
+                              {x + 1}
+                           </Option>
+                        ))}
+                     </Select>
+                  </p>
                </Row>
-               <AddToCart />
+               <Row>
+                  <p className="product-qty">
+                     總計:$ {product.price * qty}
+                  </p>           
+               </Row>
             </div>
          </div>           
-        </Col>
+         <AddToCart />
       </Row>
    );
 }

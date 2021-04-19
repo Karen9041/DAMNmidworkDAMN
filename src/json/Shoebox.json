@@ -1,14 +1,35 @@
 [
   {
-    "id": "IuFGYl",
+    "id": "003120-369-A",
     "category": "Tableware",
-    "name": "桌子",
-    "sku": "sku_313356",
-    "price": 6,
-    "image": "./pic/Option2.png",
-    "description": "The beautiful Rustic mug from House Doctor is made of ceramics and has an appealing glaze in grey and blue that contributes to a rustic.",
-    "description_long": "The beautiful Rustic mug from House Doctor is made of ceramics and has an appealing glaze in grey and blue that contributes to a rustic feeling. Since it's handmade, every mug is unique. Match it with other tableware in the Rustic series.",
-    "currency": "USD",
-    "countInStock": 6 
+    "name": "組合鞋櫃",
+    "price": 22380,
+    "image": "https://www.tahan.com.tw/product/productimages/58c8761b20879441ea96c4729753aad5.jpeg",
+    "description_long": "2.7*6.4尺高鞋櫃*1+4尺鞋櫃 正面，檯面，側板為環保木心板經立體木紋耐磨處理 實木噴漆腳座，台灣製造",
+    "currency": "NTD",
+    "countInStock": 9,
+    "color": ["咖啡色","米白色"]    
+  },
+  {
+    "id": "003120-367-B",
+    "category": "Tableware",
+    "name": "跳色組合鞋櫃",
+    "price": 21500,
+    "image": "https://www.tahan.com.tw/product/productimages/b4f4699fb5cb63d48242186ece4278c0.jpeg",
+    "description_long": "內含2.7*6尺四門高鞋櫃*1+4尺鞋櫃*1 正面，側板為環保木心板經立體木紋耐磨處理 採系統式1.0mm ABS厚封邊處理，質感加分",
+    "currency": "NTD",
+    "countInStock": 2,
+    "color": ["米白配樟木色","米白配檜木色"]    
+  },
+  {
+    "id": "001620-408-B",
+    "category": "Tableware",
+    "name": "集層4尺鞋櫃組",
+    "price": 21500,
+    "image": "https://www.tahan.com.tw/product/productimages/ec351cf3ae0f71c7eecaa5b115d7e0af.jpeg",
+    "description_long": "雙門鞋櫃+半開放鞋櫃 總尺寸：寬120*深32*高182cm 雙門鞋櫃附8片隔板(上下各4) 開放鞋櫃附5片隔板(上2下3) 全組木心板、PVC浮雕 採用符合標準低甲醛A級防蛀木心板 高級油壓式後鈕",
+    "currency": "NTD",
+    "countInStock": 6,
+    "color": ["柚木色"]    
   }
 ]

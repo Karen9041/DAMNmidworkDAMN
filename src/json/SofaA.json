@@ -1,0 +1,46 @@
+[
+  {
+    "id": "A001520-255-4",
+    "category": "Sofa",
+    "name": "休閒椅",
+    "price": 7700,
+    "image": "https://www.tahan.com.tw/product/productimages/f5f1889ff3d2feb672d71cbf03e42eb6.jpeg",
+    "description_long": "座寬89cm*座深78cm*座高39cm 全曲木板加皮墊",
+    "currency": "NTD",
+    "countInStock": 3 ,
+    "color": ["白","黑"]    
+  },
+  {
+    "id": "A001520-256-2",
+    "category": "Sofa",
+    "name": "牛皮休閒椅",
+    "price": 28890,
+    "image": "https://www.tahan.com.tw/product/productimages/2ba6ec89205e1a7aeaa736c6ce06c6b5.jpeg",
+    "description_long": "腳椅：座寬64cm*座深54cm*座高46cm  座椅：座寬84cm*座深85cm*座高46cm",
+    "currency": "NTD",
+    "countInStock": 3 ,
+    "color": ["棕黑色"]    
+  },
+  {
+    "id": "A002420-065-B",
+    "category": "Sofa",
+    "name": "咖啡色沙發組",
+    "price": 13400,
+    "image": "https://www.tahan.com.tw/product/productimages/ee727b18e3109a77ed32664b559a71b8.jpeg",
+    "description_long": "整組含單人座*1、雙人座*1、三人座*1 座高42cm，座深50cm 不含大小茶几，可自行加購",
+    "currency": "NTD",
+    "countInStock": 10 ,
+    "color": ["咖啡色"]    
+  },
+  {
+    "id": "A002920-277",
+    "category": "Sofa",
+    "name": "二人沙發",
+    "price": 3850,
+    "image": "https://www.tahan.com.tw/product/productimages/d5edb9f9d8d2321202a042e4e31fe97d.jpeg",
+    "description_long": " 寬：103cm * 深：73cm * 高：80cm 合成皮、實木骨架、高密度泡棉",
+    "currency": "NTD",
+    "countInStock": 10 ,
+    "color": ["紅","黑","白"]    
+  }
+]
